@@ -1,0 +1,133 @@
+body{
+    /* background-image: url(./vintage-film-projector-and-film-screening-2021-08-26-22-40-00-utc.jpg); */
+    background-position: center;
+    background-color: crimson !important;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 90%;
+}
+.navbar img{
+    width: 100px;
+}
+.popular{
+    width: 100%;
+    /* overflow-y: scroll; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+}
+.popular::-webkit-scrollbar {
+    height: 8px;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: linear-gradient(to right, #f434a1 0%, #ff8442 100%);
+}
+.comedy{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.comedy::-webkit-scrollbar {
+    width: 2px;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: linear-gradient(to right, #f434a1 0%, #ff8442 100%);
+}
+.actionContainer,.popularContainer,.comedyContainer,.releaseContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.actionContainer h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+}
+.action{
+    width: 100%;
+    /* overflow-y: scroll; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+}
+.action::-webkit-scrollbar {
+    height: 8px;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: linear-gradient(to right, #f434a1 0%, #ff8442 100%);
+}
+.popular img ,.comedy img, .action img,.release img{
+    width: 150px;
+}
+.popularMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+    margin-top: 30px;
+    /* background-color: gray; */
+    color: white;
+    padding: 16px 0;
+    border-radius: 20px;
+}
+.popularTitle{
+    width: 200px;
+    text-align: center;
+}
+.release{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.release::-webkit-scrollbar {
+    width: 2px;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: linear-gradient(to right, #f434a1 0%, #ff8442 100%);
+}
+h1{
+    color: white;
+    font-size:4rem ;
+}
+.carousel-inner{
+    height: 500px !important;
+}
+/* .carouselTitle{
+    color: white;
+    font-size: 40px;
+} */
+
